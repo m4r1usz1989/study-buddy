@@ -4,7 +4,8 @@
     "rules": {
       "prettier/prettier": ["warn", {
         "singleQuote": true,
-        "printWidth": 150
+        "printWidth": 150,
+        "tabWidth": 4
       }],
       "import/first": 0
     },
