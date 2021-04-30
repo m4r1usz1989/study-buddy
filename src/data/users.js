@@ -33,5 +33,5 @@ export const users = [
         name: 'Krystian Foczpaniak',
         attendance: '39%',
         average: '2.3',
-    }
+    },
 ];
