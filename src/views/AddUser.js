@@ -1,8 +1,6 @@
 import React, { useState, useContext } from 'react';
-import PropTypes from 'prop-types';
 import FormField from 'components/molecules/FormField/FormField';
 import { Button } from 'components/atoms/Button/Button';
-import { UserShape } from 'types';
 import { ViewWrapper } from 'components/molecules/ViewWrapper/ViewWrapper';
 import { Title } from 'components/atoms/Title/Title';
 import { UsersContext } from 'providers/UsersProvider';
@@ -15,7 +13,7 @@ const initialFormState = {
 
 const AddUser = () => {
     const [formValues, setFormValues] = useState(initialFormState);
-    const {handleAddUser} = useContext(UsersContext)
+    const { handleAddUser } = useContext(UsersContext);
 
     const handleInputChange = (e) => {
         console.log(formValues);
